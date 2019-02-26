@@ -1,0 +1,90 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	e-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/c7d224bd/
+0	config.json	/^            {  $/;"	kind:o	line:7	array:inbounds.0.settings.clients
+0	config.json	/^  "inbounds": [{ $/;"	kind:o	line:2	array:inbounds
+0	config.json	/^  "outbounds": [{ $/;"	kind:o	line:15	array:outbounds
+<A-j>	.vimrc	/^inoremap <A-j> <Esc>:m+<CR>==gi$/;"	kind:m	line:87
+<A-j>	.vimrc	/^nnoremap <A-j> :m+<CR>==$/;"	kind:m	line:85
+<A-j>	.vimrc	/^vnoremap <A-j> :m'>+<CR>gv=gv$/;"	kind:m	line:89
+<A-k>	.vimrc	/^inoremap <A-k> <Esc>:m-2<CR>==gi$/;"	kind:m	line:88
+<A-k>	.vimrc	/^nnoremap <A-k> :m-2<CR>==$/;"	kind:m	line:86
+<A-k>	.vimrc	/^vnoremap <A-k> :m-2<CR>gv=gv$/;"	kind:m	line:90
+<C-h>	.vimrc	/^inoremap <C-h> <left>$/;"	kind:m	line:93
+<C-j>	.vimrc	/^inoremap <C-j> <down>$/;"	kind:m	line:94
+<C-k>	.vimrc	/^inoremap <C-k> <up>$/;"	kind:m	line:95
+<C-l>	.vimrc	/^inoremap <C-l> <right>$/;"	kind:m	line:96
+<C-y>	.vimrc	/^vnoremap <C-y> "+y$/;"	kind:m	line:102
+<CR>	.vimrc	/^nnoremap <CR> o<esc>$/;"	kind:m	line:117
+<SPACE>	.vimrc	/^nnoremap <SPACE> viw$/;"	kind:m	line:99
+<a-O>	.vimrc	/^inoremap <a-O> <esc>O$/;"	kind:m	line:123
+<a-a>	.vimrc	/^inoremap <a-a> <esc>ggVG$/;"	kind:m	line:112
+<a-a>	.vimrc	/^nnoremap <a-a> ggVG$/;"	kind:m	line:114
+<a-a>	.vimrc	/^vnoremap <a-a> <esc>ggVG$/;"	kind:m	line:113
+<a-d>	.vimrc	/^nnoremap <a-d> :bd<cr>$/;"	kind:m	line:147
+<a-o>	.vimrc	/^inoremap <a-o> <esc>o$/;"	kind:m	line:122
+<a-t>	.vimrc	/^map <a-t> :NERDTreeToggle<CR>$/;"	kind:m	line:37
+<a-u>	.vimrc	/^inoremap <a-u> <esc>u$/;"	kind:m	line:109
+<a-u>	.vimrc	/^nnoremap <a-u> u$/;"	kind:m	line:110
+<a-u>	.vimrc	/^vnoremap <a-u> <esc>u$/;"	kind:m	line:108
+<a-x>	.vimrc	/^inoremap <a-x> <BS>$/;"	kind:m	line:120
+<c-p>	.vimrc	/^nnoremap <c-p> "+p$/;"	kind:m	line:105
+<c-p>	.vimrc	/^vnoremap <c-p> "+p$/;"	kind:m	line:103
+<c-x>	.vimrc	/^vnoremap <c-x> "+x $/;"	kind:m	line:104
+<s-tab>	.vimrc	/^nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR/;"	kind:m	line:144
+<tab>	.vimrc	/^nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR/;"	kind:m	line:143
+Modes	ReadMe.md	/^# Modes$/;"	kind:c	line:3
+NERDTreeShowHidden	.vimrc	/^let NERDTreeShowHidden=1$/;"	kind:v	line:50
+alterId	config.json	/^                    "alterId": 64, $/;"	kind:n	line:9	object:inbounds.0.settings.clients.0
+basic	init.sh	/^basic(){$/;"	kind:f	line:3
+c	.vimrc	/^	      let c = nr2char(1+char2nr(c))$/;"	kind:v	line:77
+c	.vimrc	/^let c='a'$/;"	kind:v	line:73
+centosversion	bbr.sh	/^centosversion() {$/;"	kind:f	line:189
+check_bbr_status	bbr.sh	/^check_bbr_status() {$/;"	kind:f	line:204
+check_kernel_version	bbr.sh	/^check_kernel_version() {$/;"	kind:f	line:213
+clients	config.json	/^    "clients": [ $/;"	kind:a	line:6	object:inbounds.0.settings
+display_menu	bbr.sh	/^display_menu(){$/;"	kind:f	line:71
+end	init.sh	/^end(){$/;"	kind:f	line:104
+fast_open	shadowsocks.json	/^    "fast_open": false$/;"	kind:b	line:9
+g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	kind:v	line:62
+g:airline#extensions#tabline#formatter	.vimrc	/^let g:airline#extensions#tabline#formatter = 'unique_tail_improved'$/;"	kind:v	line:66
+g:airline#extensions#tabline#left_alt_sep	.vimrc	/^let g:airline#extensions#tabline#left_alt_sep = '♩'$/;"	kind:v	line:65
+g:airline#extensions#tabline#left_sep	.vimrc	/^let g:airline#extensions#tabline#left_sep = ' '$/;"	kind:v	line:64
+get_char	bbr.sh	/^get_char() {$/;"	kind:f	line:171
+get_hint	bbr.sh	/^get_hint(){$/;"	kind:f	line:64
+get_latest_version	bbr.sh	/^get_latest_version() {$/;"	kind:f	line:127
+get_opsy	bbr.sh	/^get_opsy() {$/;"	kind:f	line:160
+get_valid_valname	bbr.sh	/^get_valid_valname(){$/;"	kind:f	line:58
+getversion	bbr.sh	/^getversion() {$/;"	kind:f	line:181
+id	config.json	/^                    "id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", $/;"	kind:s	line:8	object:inbounds.0.settings.clients.0
+inbounds	config.json	/^  "inbounds": [{ $/;"	kind:a	line:2
+install_bbr	bbr.sh	/^install_bbr() {$/;"	kind:f	line:283
+install_config	bbr.sh	/^install_config() {$/;"	kind:f	line:251
+install_elrepo	bbr.sh	/^install_elrepo() {$/;"	kind:f	line:222
+is_64bit	bbr.sh	/^is_64bit(){$/;"	kind:f	line:50
+is_digit	bbr.sh	/^is_digit(){$/;"	kind:f	line:41
+kernel_arr=	bbr.sh	/^    kernel_arr=()$/;"	kind:f	line:132
+local_address	shadowsocks.json	/^    "local_address": "127.0.0.1",$/;"	kind:s	line:4
+local_port	shadowsocks.json	/^    "local_port":1080,$/;"	kind:n	line:5
+main	init.sh	/^main(){$/;"	kind:f	line:115
+method	shadowsocks.json	/^    "method":"chacha20",$/;"	kind:s	line:8
+outbounds	config.json	/^  "outbounds": [{ $/;"	kind:a	line:15
+password	shadowsocks.json	/^    "password":"mypassword",$/;"	kind:s	line:6
+port	config.json	/^    "port": 10086,  $/;"	kind:n	line:3	object:inbounds.0
+protocol	config.json	/^    "protocol": "freedom", $/;"	kind:s	line:16	object:outbounds.0
+protocol	config.json	/^    "protocol": "vmess", $/;"	kind:s	line:4	object:inbounds.0
+reboot_os	bbr.sh	/^reboot_os() {$/;"	kind:f	line:271
+security	config.json	/^                    "security": "auto" $/;"	kind:s	line:10	object:inbounds.0.settings.clients.0
+server	shadowsocks.json	/^    "server":"my_server_ip",$/;"	kind:s	line:2
+server_port	shadowsocks.json	/^    "server_port":8388,$/;"	kind:n	line:3
+settings	config.json	/^    "settings": { $/;"	kind:o	line:5	object:inbounds.0
+settings	config.json	/^    "settings": {} $/;"	kind:o	line:17	object:outbounds.0
+shadowsocks	init.sh	/^shadowsocks(){$/;"	kind:f	line:83
+sysctl_config	bbr.sh	/^sysctl_config() {$/;"	kind:f	line:243
+timeout	shadowsocks.json	/^    "timeout":300,$/;"	kind:n	line:7
+v2ray	init.sh	/^v2ray(){$/;"	kind:f	line:98
+version_ge	bbr.sh	/^version_ge(){$/;"	kind:f	line:123

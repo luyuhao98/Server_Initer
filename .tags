@@ -46,9 +46,10 @@ c	.vimrc	/^let c='a'$/;"	kind:v	line:73
 centosversion	bbr.sh	/^centosversion() {$/;"	kind:f	line:189
 check_bbr_status	bbr.sh	/^check_bbr_status() {$/;"	kind:f	line:204
 check_kernel_version	bbr.sh	/^check_kernel_version() {$/;"	kind:f	line:213
+client	init.sh	/^client(){$/;"	kind:f	line:110
 clients	config.json	/^    "clients": [ $/;"	kind:a	line:6	object:inbounds.0.settings
 display_menu	bbr.sh	/^display_menu(){$/;"	kind:f	line:71
-end	init.sh	/^end(){$/;"	kind:f	line:104
+end	init.sh	/^end(){$/;"	kind:f	line:114
 fast_open	shadowsocks.json	/^    "fast_open": false$/;"	kind:b	line:9
 g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	kind:v	line:62
 g:airline#extensions#tabline#formatter	.vimrc	/^let g:airline#extensions#tabline#formatter = 'unique_tail_improved'$/;"	kind:v	line:66
@@ -70,7 +71,7 @@ is_digit	bbr.sh	/^is_digit(){$/;"	kind:f	line:41
 kernel_arr=	bbr.sh	/^    kernel_arr=()$/;"	kind:f	line:132
 local_address	shadowsocks.json	/^    "local_address": "127.0.0.1",$/;"	kind:s	line:4
 local_port	shadowsocks.json	/^    "local_port":1080,$/;"	kind:n	line:5
-main	init.sh	/^main(){$/;"	kind:f	line:115
+main	init.sh	/^main(){$/;"	kind:f	line:125
 method	shadowsocks.json	/^    "method":"chacha20",$/;"	kind:s	line:8
 outbounds	config.json	/^  "outbounds": [{ $/;"	kind:a	line:15
 password	shadowsocks.json	/^    "password":"mypassword",$/;"	kind:s	line:6
@@ -83,8 +84,8 @@ server	shadowsocks.json	/^    "server":"my_server_ip",$/;"	kind:s	line:2
 server_port	shadowsocks.json	/^    "server_port":8388,$/;"	kind:n	line:3
 settings	config.json	/^    "settings": { $/;"	kind:o	line:5	object:inbounds.0
 settings	config.json	/^    "settings": {} $/;"	kind:o	line:17	object:outbounds.0
-shadowsocks	init.sh	/^shadowsocks(){$/;"	kind:f	line:83
+shadowsocks	init.sh	/^shadowsocks(){$/;"	kind:f	line:89
 sysctl_config	bbr.sh	/^sysctl_config() {$/;"	kind:f	line:243
 timeout	shadowsocks.json	/^    "timeout":300,$/;"	kind:n	line:7
-v2ray	init.sh	/^v2ray(){$/;"	kind:f	line:98
+v2ray	init.sh	/^v2ray(){$/;"	kind:f	line:104
 version_ge	bbr.sh	/^version_ge(){$/;"	kind:f	line:123

@@ -8,53 +8,147 @@
 0	config.json	/^            {  $/;"	kind:o	line:7	array:inbounds.0.settings.clients
 0	config.json	/^  "inbounds": [{ $/;"	kind:o	line:2	array:inbounds
 0	config.json	/^  "outbounds": [{ $/;"	kind:o	line:15	array:outbounds
-<A-j>	.vimrc	/^inoremap <A-j> <Esc>:m+<CR>==gi$/;"	kind:m	line:87
-<A-j>	.vimrc	/^nnoremap <A-j> :m+<CR>==$/;"	kind:m	line:85
-<A-j>	.vimrc	/^vnoremap <A-j> :m'>+<CR>gv=gv$/;"	kind:m	line:89
-<A-k>	.vimrc	/^inoremap <A-k> <Esc>:m-2<CR>==gi$/;"	kind:m	line:88
-<A-k>	.vimrc	/^nnoremap <A-k> :m-2<CR>==$/;"	kind:m	line:86
-<A-k>	.vimrc	/^vnoremap <A-k> :m-2<CR>gv=gv$/;"	kind:m	line:90
-<C-h>	.vimrc	/^inoremap <C-h> <left>$/;"	kind:m	line:93
-<C-j>	.vimrc	/^inoremap <C-j> <down>$/;"	kind:m	line:94
-<C-k>	.vimrc	/^inoremap <C-k> <up>$/;"	kind:m	line:95
-<C-l>	.vimrc	/^inoremap <C-l> <right>$/;"	kind:m	line:96
-<C-y>	.vimrc	/^vnoremap <C-y> "+y$/;"	kind:m	line:102
-<CR>	.vimrc	/^nnoremap <CR> o<esc>$/;"	kind:m	line:117
-<SPACE>	.vimrc	/^nnoremap <SPACE> viw$/;"	kind:m	line:99
-<a-O>	.vimrc	/^inoremap <a-O> <esc>O$/;"	kind:m	line:123
-<a-a>	.vimrc	/^inoremap <a-a> <esc>ggVG$/;"	kind:m	line:112
-<a-a>	.vimrc	/^nnoremap <a-a> ggVG$/;"	kind:m	line:114
-<a-a>	.vimrc	/^vnoremap <a-a> <esc>ggVG$/;"	kind:m	line:113
-<a-d>	.vimrc	/^nnoremap <a-d> :bd<cr>$/;"	kind:m	line:147
-<a-o>	.vimrc	/^inoremap <a-o> <esc>o$/;"	kind:m	line:122
-<a-t>	.vimrc	/^map <a-t> :NERDTreeToggle<CR>$/;"	kind:m	line:37
-<a-u>	.vimrc	/^inoremap <a-u> <esc>u$/;"	kind:m	line:109
-<a-u>	.vimrc	/^nnoremap <a-u> u$/;"	kind:m	line:110
-<a-u>	.vimrc	/^vnoremap <a-u> <esc>u$/;"	kind:m	line:108
-<a-x>	.vimrc	/^inoremap <a-x> <BS>$/;"	kind:m	line:120
-<c-p>	.vimrc	/^nnoremap <c-p> "+p$/;"	kind:m	line:105
-<c-p>	.vimrc	/^vnoremap <c-p> "+p$/;"	kind:m	line:103
-<c-x>	.vimrc	/^vnoremap <c-x> "+x $/;"	kind:m	line:104
-<s-tab>	.vimrc	/^nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR/;"	kind:m	line:144
-<tab>	.vimrc	/^nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR/;"	kind:m	line:143
+<A-j>	.vimrc	/^inoremap <A-j> <Esc>:m+<CR>==gi$/;"	kind:m	line:461
+<A-j>	.vimrc	/^nnoremap <A-j> :m+<CR>==$/;"	kind:m	line:464
+<A-j>	.vimrc	/^vnoremap <A-j> :m'>+<CR>gv=gv$/;"	kind:m	line:462
+<A-k>	.vimrc	/^inoremap <A-k> <Esc>:m-2<CR>==gi$/;"	kind:m	line:463
+<A-k>	.vimrc	/^nnoremap <A-k> :m-2<CR>==$/;"	kind:m	line:460
+<A-k>	.vimrc	/^vnoremap <A-k> :m-2<CR>gv=gv$/;"	kind:m	line:465
+<C-_>	.vimrc	/^nmap <C-_> <leader>c<Space>$/;"	kind:m	line:332
+<C-_>	.vimrc	/^vmap <C-_> <leader>c<Space>$/;"	kind:m	line:333
+<C-h>	.vimrc	/^inoremap <C-h> <left>$/;"	kind:m	line:468
+<C-j>	.vimrc	/^inoremap <C-j> <down>$/;"	kind:m	line:469
+<C-k>	.vimrc	/^inoremap <C-k> <up>$/;"	kind:m	line:470
+<C-l>	.vimrc	/^inoremap <C-l> <right>$/;"	kind:m	line:471
+<CR>	.vimrc	/^nnoremap <CR> O<esc>j$/;"	kind:m	line:496
+<F10>	.vimrc	/^nnoremap <F10> :call asyncrun#quickfix_toggle(6)<cr>$/;"	kind:m	line:196
+<F4>	.vimrc	/^nnoremap <silent> <F4> :w<cr>:AsyncRun -cwd=<root> make run <cr>$/;"	kind:m	line:202
+<F5>	.vimrc	/^nnoremap <silent> <F5> :w<cr>:AsyncRun -cwd=<root> make <cr>$/;"	kind:m	line:199
+<Leader><Leader>j	.vimrc	/^map <Leader><Leader>j <Plug>(easymotion-j)$/;"	kind:m	line:426
+<Leader><Leader>k	.vimrc	/^map <Leader><Leader>k <Plug>(easymotion-k)$/;"	kind:m	line:427
+<Leader><leader>.	.vimrc	/^map <Leader><leader>. <Plug>(easymotion-repeat)$/;"	kind:m	line:430
+<Leader><leader>h	.vimrc	/^map <Leader><leader>h <Plug>(easymotion-linebackward)$/;"	kind:m	line:425
+<Leader><leader>l	.vimrc	/^map <Leader><leader>l <Plug>(easymotion-lineforward)$/;"	kind:m	line:428
+<SPACE>	.vimrc	/^nnoremap <SPACE> i<space><Esc>$/;"	kind:m	line:474
+<a-O>	.vimrc	/^inoremap <a-O> <esc>O$/;"	kind:m	line:502
+<a-a>	.vimrc	/^inoremap <a-a> <esc>ggVG$/;"	kind:m	line:490
+<a-a>	.vimrc	/^nnoremap <a-a> ggVG$/;"	kind:m	line:492
+<a-a>	.vimrc	/^vnoremap <a-a> <esc>ggVG$/;"	kind:m	line:491
+<a-d>	.vimrc	/^nnoremap <a-d> :bd<cr>$/;"	kind:m	line:525
+<a-g>	.vimrc	/^inoremap <a-g> <esc>GA$/;"	kind:m	line:554
+<a-g>	.vimrc	/^nnoremap <a-g> G\$$/;"	kind:m	line:555
+<a-g>	.vimrc	/^vnoremap <a-g> G\$$/;"	kind:m	line:556
+<a-h>	.vimrc	/^inoremap <a-h> <esc>g0i$/;"	kind:m	line:547
+<a-l>	.vimrc	/^inoremap <a-l> <esc>g$a$/;"	kind:m	line:546
+<a-o>	.vimrc	/^inoremap <a-o> <esc>o$/;"	kind:m	line:501
+<a-r>	.vimrc	/^nnoremap <a-r> :nohl<cr>$/;"	kind:m	line:550
+<a-s>	.vimrc	/^nnoremap <a-s> :rightb ter<cr>$/;"	kind:m	line:566
+<a-t>	.vimrc	/^map <a-t> :NERDTreeToggle<CR>$/;"	kind:m	line:133
+<a-u>	.vimrc	/^inoremap <a-u> <esc>u$/;"	kind:m	line:487
+<a-u>	.vimrc	/^nnoremap <a-u> u$/;"	kind:m	line:488
+<a-u>	.vimrc	/^vnoremap <a-u> <esc>u$/;"	kind:m	line:486
+<a-x>	.vimrc	/^inoremap <a-x> <BS>$/;"	kind:m	line:499
+<c-n>	.vimrc	/^noremap <c-n> :LeaderfMru<cr>$/;"	kind:m	line:347
+<c-x>	.vimrc	/^vnoremap <c-x> "+x$/;"	kind:m	line:482
+<c-y>	.vimrc	/^vnoremap <c-y> "+y$/;"	kind:m	line:477
+<c-y><c-y>	.vimrc	/^nnoremap <c-y><c-y> "+yy$/;"	kind:m	line:483
+<leader><CR>	.vimrc	/^inoremap <leader><CR> <CR><ESC>kA$/;"	kind:m	line:576
+<leader><CR>	.vimrc	/^nnoremap <leader><CR> i<CR><ESC>k\$$/;"	kind:m	line:575
+<leader><space>	.vimrc	/^map <leader><space> :FixWhitespace<cr>$/;"	kind:m	line:336
+<leader>r	.vimrc	/^nnoremap <leader>r :REPLToggle<Cr>$/;"	kind:m	line:385
+<m-m>	.vimrc	/^noremap <m-m> :LeaderfTag<cr>$/;"	kind:m	line:350
+<m-n>	.vimrc	/^noremap <m-n> :LeaderfBuffer<cr>$/;"	kind:m	line:349
+<m-p>	.vimrc	/^noremap <m-p> :LeaderfFunction!<cr>$/;"	kind:m	line:348
+<s-tab>	.vimrc	/^nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR/;"	kind:m	line:522
+<tab>	.vimrc	/^nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR/;"	kind:m	line:521
+<tab>	.vimrc	/^vnoremap <tab> I<tab><esc>$/;"	kind:m	line:559
+H	.vimrc	/^nnoremap H I<esc>$/;"	kind:m	line:543
+H	.vimrc	/^vnoremap H I<esc>$/;"	kind:m	line:545
+L	.vimrc	/^nnoremap L \$$/;"	kind:m	line:542
+L	.vimrc	/^vnoremap L \$$/;"	kind:m	line:544
 Modes	ReadMe.md	/^# Modes$/;"	kind:c	line:3
-NERDTreeShowHidden	.vimrc	/^let NERDTreeShowHidden=1$/;"	kind:v	line:50
+NERDTreeShowHidden	.vimrc	/^let NERDTreeShowHidden=1$/;"	kind:v	line:146
 alterId	config.json	/^                    "alterId": 64, $/;"	kind:n	line:9	object:inbounds.0.settings.clients.0
 basic	init.sh	/^basic(){$/;"	kind:f	line:3
-c	.vimrc	/^	      let c = nr2char(1+char2nr(c))$/;"	kind:v	line:77
-c	.vimrc	/^let c='a'$/;"	kind:v	line:73
+c	.vimrc	/^	      let c = nr2char(1+char2nr(c))$/;"	kind:v	line:452
+c	.vimrc	/^let c='a'$/;"	kind:v	line:448
 centosversion	bbr.sh	/^centosversion() {$/;"	kind:f	line:189
 check_bbr_status	bbr.sh	/^check_bbr_status() {$/;"	kind:f	line:204
 check_kernel_version	bbr.sh	/^check_kernel_version() {$/;"	kind:f	line:213
-client	init.sh	/^client(){$/;"	kind:f	line:110
+client	init.sh	/^client(){$/;"	kind:f	line:115
 clients	config.json	/^    "clients": [ $/;"	kind:a	line:6	object:inbounds.0.settings
 display_menu	bbr.sh	/^display_menu(){$/;"	kind:f	line:71
-end	init.sh	/^end(){$/;"	kind:f	line:114
+end	init.sh	/^end(){$/;"	kind:f	line:119
 fast_open	shadowsocks.json	/^    "fast_open": false$/;"	kind:b	line:9
-g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	kind:v	line:62
-g:airline#extensions#tabline#formatter	.vimrc	/^let g:airline#extensions#tabline#formatter = 'unique_tail_improved'$/;"	kind:v	line:66
-g:airline#extensions#tabline#left_alt_sep	.vimrc	/^let g:airline#extensions#tabline#left_alt_sep = '♩'$/;"	kind:v	line:65
-g:airline#extensions#tabline#left_sep	.vimrc	/^let g:airline#extensions#tabline#left_sep = ' '$/;"	kind:v	line:64
+g:EasyMotion_smartcase	.vimrc	/^let g:EasyMotion_smartcase = 1$/;"	kind:v	line:420
+g:Lf_CacheDirectory	.vimrc	/^let g:Lf_CacheDirectory = expand('~\/.vim\/cache')$/;"	kind:v	line:356
+g:Lf_HideHelp	.vimrc	/^let g:Lf_HideHelp = 1$/;"	kind:v	line:358
+g:Lf_PreviewResult	.vimrc	/^let g:Lf_PreviewResult = {'Function':0, 'BufTag':0}$/;"	kind:v	line:360
+g:Lf_RootMarkers	.vimrc	/^let g:Lf_RootMarkers = ['.project', '.root', '.svn', '.git']$/;"	kind:v	line:353
+g:Lf_ShortcutB	.vimrc	/^let g:Lf_ShortcutB = '<m-n>'$/;"	kind:v	line:346
+g:Lf_ShortcutF	.vimrc	/^let g:Lf_ShortcutF = '<c-p>'$/;"	kind:v	line:345
+g:Lf_ShowRelativePath	.vimrc	/^let g:Lf_ShowRelativePath = 0$/;"	kind:v	line:357
+g:Lf_StlColorscheme	.vimrc	/^let g:Lf_StlColorscheme = 'powerline'$/;"	kind:v	line:359
+g:Lf_StlSeparator	.vimrc	/^let g:Lf_StlSeparator = { 'left': '', 'right': '', 'font': '' }$/;"	kind:v	line:351
+g:Lf_WindowHeight	.vimrc	/^let g:Lf_WindowHeight = 0.30$/;"	kind:v	line:355
+g:Lf_WorkingDirectoryMode	.vimrc	/^let g:Lf_WorkingDirectoryMode = 'Ac'$/;"	kind:v	line:354
+g:UltiSnipsEditSplit	.vimrc	/^let g:UltiSnipsEditSplit="vertical"$/;"	kind:v	line:369
+g:UltiSnipsExpandTrigger	.vimrc	/^let g:UltiSnipsExpandTrigger="<a-q>"$/;"	kind:v	line:364
+g:UltiSnipsJumpBackwardTrigger	.vimrc	/^let g:UltiSnipsJumpBackwardTrigger="<a-b>"$/;"	kind:v	line:366
+g:UltiSnipsJumpForwardTrigger	.vimrc	/^let g:UltiSnipsJumpForwardTrigger="<a-f>"$/;"	kind:v	line:365
+g:ackprg	.vimrc	/^	let g:ackprg='ag --vimgrep'$/;"	kind:v	line:441
+g:airline#extensions#ale#enabled	.vimrc	/^let g:airline#extensions#ale#enabled = 1$/;"	kind:v	line:298
+g:airline#extensions#tabline#enabled	.vimrc	/^let g:airline#extensions#tabline#enabled = 1$/;"	kind:v	line:320
+g:airline#extensions#tabline#formatter	.vimrc	/^let g:airline#extensions#tabline#formatter = 'unique_tail_improved'$/;"	kind:v	line:324
+g:airline#extensions#tabline#left_alt_sep	.vimrc	/^let g:airline#extensions#tabline#left_alt_sep = '♩'$/;"	kind:v	line:323
+g:airline#extensions#tabline#left_sep	.vimrc	/^let g:airline#extensions#tabline#left_sep = ' '$/;"	kind:v	line:322
+g:ale_c_cppcheck_options	.vimrc	/^let g:ale_c_cppcheck_options = ''$/;"	kind:v	line:307
+g:ale_c_gcc_options	.vimrc	/^let g:ale_c_gcc_options = '-Wall -O2 -std=c99'$/;"	kind:v	line:305
+g:ale_completion_delay	.vimrc	/^let g:ale_completion_delay = 500$/;"	kind:v	line:292
+g:ale_cpp_cppcheck_options	.vimrc	/^let g:ale_cpp_cppcheck_options = ''$/;"	kind:v	line:308
+g:ale_cpp_gcc_options	.vimrc	/^let g:ale_cpp_gcc_options = '-Wall -O2 -std=c++14'$/;"	kind:v	line:306
+g:ale_echo_delay	.vimrc	/^let g:ale_echo_delay = 20$/;"	kind:v	line:293
+g:ale_echo_msg_format	.vimrc	/^let g:ale_echo_msg_format = '[%linter%] %code: %%s'$/;"	kind:v	line:295
+g:ale_fixers	.vimrc	/^let g:ale_fixers = {$/;"	kind:v	line:287
+g:ale_lint_delay	.vimrc	/^let g:ale_lint_delay = 500$/;"	kind:v	line:294
+g:ale_lint_on_insert_leave	.vimrc	/^let g:ale_lint_on_insert_leave = 1$/;"	kind:v	line:302
+g:ale_lint_on_text_changed	.vimrc	/^let g:ale_lint_on_text_changed = 'normal'$/;"	kind:v	line:301
+g:ale_linters	.vimrc	/^let g:ale_linters = {$/;"	kind:v	line:280
+g:ale_linters_explicit	.vimrc	/^let g:ale_linters_explicit = 1$/;"	kind:v	line:277
+g:ale_sign_column_always	.vimrc	/^let g:ale_sign_column_always = 1$/;"	kind:v	line:274
+g:ale_sign_error	.vimrc	/^let g:ale_sign_error = '✗'$/;"	kind:v	line:270
+g:ale_sign_warning	.vimrc	/^let g:ale_sign_warning = '⚡'$/;"	kind:v	line:271
+g:asyncrun_bell	.vimrc	/^let g:asyncrun_bell = 1$/;"	kind:v	line:190
+g:asyncrun_open	.vimrc	/^let g:asyncrun_open = 20$/;"	kind:v	line:187
+g:asyncrun_rootmarks	.vimrc	/^let g:asyncrun_rootmarks = ['.svn', '.git', '.root', '_darcs', 'build.xml']$/;"	kind:v	line:193
+g:autopep8_disable_show_diff	.vimrc	/^let g:autopep8_disable_show_diff=1$/;"	kind:v	line:377
+g:autopep8_on_save	.vimrc	/^let g:autopep8_on_save = 0$/;"	kind:v	line:376
+g:clang_format#style_options	.vimrc	/^let g:clang_format#style_options = {$/;"	kind:v	line:407
+g:echodoc#enable_at_startup	.vimrc	/^let g:echodoc#enable_at_startup=1$/;"	kind:v	line:339
+g:gutentags_ctags_extra_args	.vimrc	/^let g:gutentags_ctags_extra_args += ['--c++-kinds=+px']$/;"	kind:v	line:172
+g:gutentags_ctags_extra_args	.vimrc	/^let g:gutentags_ctags_extra_args += ['--c-kinds=+px']$/;"	kind:v	line:173
+g:gutentags_ctags_extra_args	.vimrc	/^let g:gutentags_ctags_extra_args += ['--output-format=e-ctags']$/;"	kind:v	line:176
+g:gutentags_ctags_extra_args	.vimrc	/^let g:gutentags_ctags_extra_args = ['--fields=+niazS', '--extra=+q']$/;"	kind:v	line:171
+g:gutentags_ctags_tagfile	.vimrc	/^let g:gutentags_ctags_tagfile = '.tags'$/;"	kind:v	line:160
+g:gutentags_project_root	.vimrc	/^let g:gutentags_project_root = ['.root', '.svn', '.git', '.hg', '.project']$/;"	kind:v	line:157
+g:indentLine_char	.vimrc	/^let g:indentLine_char='┆'$/;"	kind:v	line:371
+g:indentLine_enabled	.vimrc	/^let g:indentLine_enabled = 1$/;"	kind:v	line:372
+g:repl_exit_commands	.vimrc	/^let g:repl_exit_commands = {$/;"	kind:v	line:391
+g:repl_position	.vimrc	/^let g:repl_position = 0$/;"	kind:v	line:403
+g:repl_program	.vimrc	/^let g:repl_program = {$/;"	kind:v	line:387
+g:ycm_add_preview_to_completeopt	.vimrc	/^let g:ycm_add_preview_to_completeopt = 0$/;"	kind:v	line:244
+g:ycm_collect_identifiers_from_comments_and_strings	.vimrc	/^let g:ycm_collect_identifiers_from_comments_and_strings = 1$/;"	kind:v	line:250
+g:ycm_complete_in_strings	.vimrc	/^let g:ycm_complete_in_strings=1$/;"	kind:v	line:253
+g:ycm_filetype_whitelist	.vimrc	/^let g:ycm_filetype_whitelist = {$/;"	kind:v	line:222
+g:ycm_global_ycm_extra_conf	.vimrc	/^let g:ycm_global_ycm_extra_conf = '\/home\/matrix98\/.ycm_extra_conf.py'$/;"	kind:v	line:256
+g:ycm_key_invoke_completion	.vimrc	/^let g:ycm_key_invoke_completion = '<c-z>'$/;"	kind:v	line:213
+g:ycm_path_to_python_interpreter	.vimrc	/^let g:ycm_path_to_python_interpreter='\/home\/matrix98\/anaconda3\/bin\/python'$/;"	kind:v	line:265
+g:ycm_python_binary_path	.vimrc	/^let g:ycm_python_binary_path  = '\/home\/matrix98\/anaconda3\/bin\/python'$/;"	kind:v	line:261
+g:ycm_semantic_triggers	.vimrc	/^let g:ycm_semantic_triggers =  {$/;"	kind:v	line:216
+g:ycm_server_python_interpreter	.vimrc	/^let g:ycm_server_python_interpreter = '\/home\/matrix98\/anaconda3\/bin\/python'$/;"	kind:v	line:263
+g:ycm_show_diagnostics_ui	.vimrc	/^let g:ycm_show_diagnostics_ui = 0$/;"	kind:v	line:247
+ga	.vimrc	/^nmap ga <Plug>(EasyAlign)$/;"	kind:m	line:127
+ga	.vimrc	/^xmap ga <Plug>(EasyAlign)$/;"	kind:m	line:124
 get_char	bbr.sh	/^get_char() {$/;"	kind:f	line:171
 get_hint	bbr.sh	/^get_hint(){$/;"	kind:f	line:64
 get_latest_version	bbr.sh	/^get_latest_version() {$/;"	kind:f	line:127
@@ -68,10 +162,12 @@ install_config	bbr.sh	/^install_config() {$/;"	kind:f	line:251
 install_elrepo	bbr.sh	/^install_elrepo() {$/;"	kind:f	line:222
 is_64bit	bbr.sh	/^is_64bit(){$/;"	kind:f	line:50
 is_digit	bbr.sh	/^is_digit(){$/;"	kind:f	line:41
+j	.vimrc	/^nnoremap <expr> j v:count ? 'j' : 'gj'$/;"	kind:m	line:538
+k	.vimrc	/^nnoremap <expr> k v:count ? 'k' : 'gk'$/;"	kind:m	line:539
 kernel_arr=	bbr.sh	/^    kernel_arr=()$/;"	kind:f	line:132
 local_address	shadowsocks.json	/^    "local_address": "127.0.0.1",$/;"	kind:s	line:4
 local_port	shadowsocks.json	/^    "local_port":1080,$/;"	kind:n	line:5
-main	init.sh	/^main(){$/;"	kind:f	line:125
+main	init.sh	/^main(){$/;"	kind:f	line:130
 method	shadowsocks.json	/^    "method":"chacha20",$/;"	kind:s	line:8
 outbounds	config.json	/^  "outbounds": [{ $/;"	kind:a	line:15
 password	shadowsocks.json	/^    "password":"mypassword",$/;"	kind:s	line:6
@@ -79,13 +175,14 @@ port	config.json	/^    "port": 10086,  $/;"	kind:n	line:3	object:inbounds.0
 protocol	config.json	/^    "protocol": "freedom", $/;"	kind:s	line:16	object:outbounds.0
 protocol	config.json	/^    "protocol": "vmess", $/;"	kind:s	line:4	object:inbounds.0
 reboot_os	bbr.sh	/^reboot_os() {$/;"	kind:f	line:271
+s:vim_tags	.vimrc	/^let s:vim_tags = expand('.')$/;"	kind:v	line:163
 security	config.json	/^                    "security": "auto" $/;"	kind:s	line:10	object:inbounds.0.settings.clients.0
 server	shadowsocks.json	/^    "server":"my_server_ip",$/;"	kind:s	line:2
 server_port	shadowsocks.json	/^    "server_port":8388,$/;"	kind:n	line:3
 settings	config.json	/^    "settings": { $/;"	kind:o	line:5	object:inbounds.0
 settings	config.json	/^    "settings": {} $/;"	kind:o	line:17	object:outbounds.0
-shadowsocks	init.sh	/^shadowsocks(){$/;"	kind:f	line:89
+shadowsocks	init.sh	/^shadowsocks(){$/;"	kind:f	line:94
 sysctl_config	bbr.sh	/^sysctl_config() {$/;"	kind:f	line:243
 timeout	shadowsocks.json	/^    "timeout":300,$/;"	kind:n	line:7
-v2ray	init.sh	/^v2ray(){$/;"	kind:f	line:104
+v2ray	init.sh	/^v2ray(){$/;"	kind:f	line:109
 version_ge	bbr.sh	/^version_ge(){$/;"	kind:f	line:123

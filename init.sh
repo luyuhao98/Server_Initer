@@ -4,6 +4,11 @@ basic(){
 echo " 修改密码"
 sudo passwd
 
+echo "换tuna源"
+sudo mv ./sources.list /etc/apt/sources.list
+sudo rm -rf /etc/apt/sources.list.d/*
+
+
 echo " 更新"
 sudo apt update
 sudo apt upgrade -y
@@ -11,13 +16,13 @@ sudo apt upgrade -y
 echo "安装vim"
 sudo add-apt-repository ppa:jonathonf/vim
 sudo apt update
-sudo chmod -R 777 ~/.vim
-sudo apt install vim-gnome #支持clipboard
+sudo chmod -R 744 ~/.vim
+sudo apt install vim-gnome -y #支持clipboard
 
 echo " 安装zsh "
 sudo apt install zsh -y
 
-sudo chsh -s /bin/zsh
+chsh -s /bin/zsh
 
 echo " 安装git"
 sudo apt install git -y
@@ -40,8 +45,8 @@ sudo apt install g++ -y
 
 
 echo " 安装pip"
-sudo apt install python-pip python-dev python3-pip python3-dev build-essential -y 
-sudo pip install --upgrade pip 
+sudo apt install python-pip python-dev python3-pip python3-dev build-essential -y
+sudo pip install --upgrade pip
 sudo pip3 install --upgrade pip3
 
 echo " 切换python版本"
@@ -70,7 +75,7 @@ sudo chmod 777  ~/Server_Initer/bbr.sh
 rm -rf ~/Server_Initer/bbr.sh
 
 echo "修改系统locale"
-sudo mv ~/Server_Initer/locale /etc/default/locale 
+sudo mv ~/Server_Initer/locale /etc/default/locale
 
 echo "设置zsh"
 mv ~/Server_Initer/.zshrc ~/.zshrc
